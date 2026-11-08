@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /join-b/
+
+Sitemap: https://shavelabayit.com/sitemap.xml
