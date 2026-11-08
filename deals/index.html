@@ -35,6 +35,8 @@ details{font-size:14px;color:#3d3c37}
 summary{cursor:pointer;font-weight:600}
 details p{margin:6px 0 0}
 .buy{margin-top:auto;display:block;text-align:center;background:#171715;color:#fff;text-decoration:none;font:700 15px/1 "Rubik",sans-serif;padding:13px;border-radius:12px}
+.ilb{align-self:flex-start;background:#171715;color:#fff;border-radius:999px;padding:3px 10px;font:600 13px 'Rubik',sans-serif}
+.card[hidden],.empty[hidden]{display:none}
 .empty{grid-column:1/-1;text-align:center;color:#6b6a63;padding:30px}
 footer{max-width:1100px;margin:0 auto;padding:0 16px 40px;font-size:13px;color:#6b6a63}
 @media (max-width:520px){.join{margin-inline-start:0;width:100%;justify-content:center}}
@@ -51,59 +53,91 @@ var h=a.getAttribute('href');if(!h||h.charAt(0)==='#'||ev.metaKey||ev.ctrlKey)re
 <div><h1>כל הדילים במקום אחד</h1><p class="sub">כל מה שפרסמנו בקבוצת שווה לבית, מהחדש לישן</p></div>
 <a class="join" href="https://chat.whatsapp.com/GAi11NrXDxNHaJfQYk0z0G" rel="noopener" data-join><svg viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3zm0 23.6c-2 0-4-.5-5.7-1.6l-.4-.2-3.9 1 1-3.8-.3-.4A10.6 10.6 0 1 1 16 26.6zm5.8-7.9c-.3-.2-1.9-.9-2.2-1-.3-.1-.5-.2-.7.2l-1 1.2c-.2.2-.4.2-.7.1a8.7 8.7 0 0 1-4.3-3.8c-.3-.6.3-.5.9-1.7.1-.2 0-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.2-1.2 2.9s1.2 3.3 1.4 3.6c.2.2 2.4 3.7 5.8 5.2 2.2.9 3 1 4.1.8.7-.1 1.9-.8 2.2-1.6.3-.8.3-1.4.2-1.6-.1-.1-.3-.2-.6-.3z"/></svg><span>לקבוצת הוואטסאפ</span></a></div></div></header>
 <div class="tools"><input id="q" type="search" placeholder="חיפוש מוצר…" aria-label="חיפוש מוצר"></div>
-<div class="chips" role="group" aria-label="קטגוריה"><button class="chip" type="button" data-t="" aria-pressed="true">הכל</button><button class="chip" type="button" data-t="אמבטיה" aria-pressed="false">אמבטיה</button><button class="chip" type="button" data-t="לבית" aria-pressed="false">לבית</button><button class="chip" type="button" data-t="לחורף" aria-pressed="false">לחורף</button><button class="chip" type="button" data-t="לכביסה" aria-pressed="false">לכביסה</button><button class="chip" type="button" data-t="למטבח" aria-pressed="false">למטבח</button><button class="chip" type="button" data-t="ניקיון" aria-pressed="false">ניקיון</button><button class="chip" type="button" data-t="סידור" aria-pressed="false">סידור</button><button class="chip" type="button" data-t="תאורה" aria-pressed="false">תאורה</button></div>
-<main class="grid" id="grid"><article class="card" data-t="תאורה" data-q="פס תאורה עם חיישן תנועה נטען תאורה">
+<div class="chips" role="group" aria-label="קטגוריה"><button class="chip" type="button" data-t="" aria-pressed="true">הכל</button><button class="chip" type="button" data-t="__il" id="il" aria-pressed="false">📦 משלוח מישראל</button><button class="chip" type="button" data-t="אמבטיה" aria-pressed="false">אמבטיה</button><button class="chip" type="button" data-t="בית חכם" aria-pressed="false">בית חכם</button><button class="chip" type="button" data-t="חימום" aria-pressed="false">חימום</button><button class="chip" type="button" data-t="לבית" aria-pressed="false">לבית</button><button class="chip" type="button" data-t="לחורף" aria-pressed="false">לחורף</button><button class="chip" type="button" data-t="לכביסה" aria-pressed="false">לכביסה</button><button class="chip" type="button" data-t="למטבח" aria-pressed="false">למטבח</button><button class="chip" type="button" data-t="מטבח" aria-pressed="false">מטבח</button><button class="chip" type="button" data-t="ניקיון" aria-pressed="false">ניקיון</button><button class="chip" type="button" data-t="סידור" aria-pressed="false">סידור</button><button class="chip" type="button" data-t="שבת" aria-pressed="false">שבת</button><button class="chip" type="button" data-t="תאורה" aria-pressed="false">תאורה</button></div>
+<main class="grid" id="grid"><article class="card" data-t="בית חכם" data-il="" data-q="שקע חכם wifi עם מדידת צריכה בית חכם">
+<img src="img/2026-11-08-bayit-1.jpg" alt="שקע חכם WiFi עם מדידת צריכה" loading="lazy" width="600" height="600">
+<div class="body"><div class="meta"><span class="tag">בית חכם</span><span>פורסם 08.11</span></div>
+<h2 class="name">שקע חכם WiFi עם מדידת צריכה</h2><p class="il">שקעים חכמים בארץ: מ-88 ₪</p><p class="ali">בעלי: 24 ₪<small>מחיר רגיל לאפשרות הזולה, בזמן הפרסום</small></p>
+<details><summary>למה בחרנו ומה לבדוק</summary><p>✅ 96.3% ביקורות חיוביות, יותר מ-6,000 נמכרו, עובד עם אפליקציה, גוגל ואלקסה</p><p>⚠️ לבחור תקע EU שמתאים לשקע בארץ. צריך WiFi של 2.4GHz.</p></details>
+<a class="buy" href="https://s.click.aliexpress.com/e/_c3dKQSjH" target="_blank" rel="sponsored noopener" data-deal="שקע חכם WiFi עם מדידת צריכה">לקנייה בעליאקספרס</a></div></article><article class="card" data-t="תאורה" data-il="" data-q="פס תאורה עם חיישן תנועה נטען תאורה">
 <img src="img/2026-11-06-bayit-1.jpg" alt="פס תאורה עם חיישן תנועה נטען" loading="lazy" width="600" height="600">
 <div class="body"><div class="meta"><span class="tag">תאורה</span><span>פורסם 06.11</span></div>
 <h2 class="name">פס תאורה עם חיישן תנועה נטען</h2><p class="il">מנורות לד נטענות עם חיישן תנועה בארץ: מ-60 ₪</p><p class="ali">בעלי: 12 ₪<small>מחיר רגיל לאפשרות שבתמונה, בזמן הפרסום</small></p>
 <details><summary>למה בחרנו ומה לבדוק</summary><p>✅ 98% ביקורות חיוביות, יותר מ-6,800 נמכרו, נצמד במגנט</p><p>⚠️ 12 ₪ לפס של 20 ס״מ. 50 ס״מ עולה קצת יותר. נדלק רק בחושך.</p></details>
-<a class="buy" href="https://s.click.aliexpress.com/e/_c3xIoYtH" target="_blank" rel="sponsored noopener" data-deal="פס תאורה עם חיישן תנועה נטען">לקנייה בעליאקספרס</a></div></article><article class="card" data-t="אמבטיה" data-q="ראש מקלחת בלחץ גבוה, 3 מצבים אמבטיה">
+<a class="buy" href="https://s.click.aliexpress.com/e/_c3xIoYtH" target="_blank" rel="sponsored noopener" data-deal="פס תאורה עם חיישן תנועה נטען">לקנייה בעליאקספרס</a></div></article><article class="card" data-t="אמבטיה" data-il="" data-q="ראש מקלחת בלחץ גבוה, 3 מצבים אמבטיה">
 <img src="img/2026-11-06-bayit-2.jpg" alt="ראש מקלחת בלחץ גבוה, 3 מצבים" loading="lazy" width="600" height="600">
 <div class="body"><div class="meta"><span class="tag">אמבטיה</span><span>פורסם 06.11</span></div>
 <h2 class="name">ראש מקלחת בלחץ גבוה, 3 מצבים</h2><p class="il">ראש מקלחת מגביר לחץ בארץ: מ-69 ₪</p><p class="ali">בעלי: 17 ₪<small>מחיר רגיל לאפשרות שבתמונה, בזמן הפרסום</small></p>
 <details><summary>למה בחרנו ומה לבדוק</summary><p>✅ 98% ביקורות חיוביות, יותר מ-5,500 נמכרו</p><p>⚠️ המחיר לראש המקלחת בלבד, צינור ומתלה לא כלולים. חיבור סטנדרטי שמתאים לרוב הצינורות בארץ.</p></details>
-<a class="buy" href="https://s.click.aliexpress.com/e/_c2xj8kEr" target="_blank" rel="sponsored noopener" data-deal="ראש מקלחת בלחץ גבוה, 3 מצבים">לקנייה בעליאקספרס</a></div></article><article class="card" data-t="למטבח" data-q="בקבוק שמן 2 ב-1, מרסס ומזיגה למטבח">
+<a class="buy" href="https://s.click.aliexpress.com/e/_c2xj8kEr" target="_blank" rel="sponsored noopener" data-deal="ראש מקלחת בלחץ גבוה, 3 מצבים">לקנייה בעליאקספרס</a></div></article><article class="card" data-t="למטבח" data-il="" data-q="בקבוק שמן 2 ב-1, מרסס ומזיגה למטבח">
 <img src="img/2026-11-06-bayit-3.jpg" alt="בקבוק שמן 2 ב-1, מרסס ומזיגה" loading="lazy" width="600" height="600">
 <div class="body"><div class="meta"><span class="tag">למטבח</span><span>פורסם 06.11</span></div>
 <h2 class="name">בקבוק שמן 2 ב-1, מרסס ומזיגה</h2><p class="il">מרסס שמן בארץ: מ-50 ₪</p><p class="ali">בעלי: 13 ₪<small>מחיר רגיל לאפשרות שבתמונה, בזמן הפרסום</small></p>
 <details><summary>למה בחרנו ומה לבדוק</summary><p>✅ 98% ביקורות חיוביות, יותר מ-20,000 נמכרו, מתאים לסיר טיגון באוויר</p><p>⚠️ 13 ₪ לבקבוק 2 ב-1 של 500 מ״ל שבתמונה. האפשרות הזולה ברשימה היא רק מברשת, לא לבחור בה בטעות.</p></details>
-<a class="buy" href="https://s.click.aliexpress.com/e/_c4aSwaBt" target="_blank" rel="sponsored noopener" data-deal="בקבוק שמן 2 ב-1, מרסס ומזיגה">לקנייה בעליאקספרס</a></div></article><article class="card" data-t="למטבח" data-q="מקציף חלב חשמלי נטען usb-c למטבח">
+<a class="buy" href="https://s.click.aliexpress.com/e/_c4aSwaBt" target="_blank" rel="sponsored noopener" data-deal="בקבוק שמן 2 ב-1, מרסס ומזיגה">לקנייה בעליאקספרס</a></div></article><article class="card" data-t="למטבח" data-il="" data-q="מקציף חלב חשמלי נטען usb-c למטבח">
 <img src="img/2026-11-05-bayit-1.jpg" alt="מקציף חלב חשמלי נטען USB-C" loading="lazy" width="600" height="600">
 <div class="body"><div class="meta"><span class="tag">למטבח</span><span>פורסם 05.11</span></div>
 <h2 class="name">מקציף חלב חשמלי נטען USB-C</h2><p class="il">מקציפי חלב ידניים בארץ: 39-84 ₪</p><p class="ali">בעלי: 9 ₪<small>מחיר רגיל לאפשרות הזולה, בזמן הפרסום</small></p>
 <details><summary>למה בחרנו ומה לבדוק</summary><p>✅ 98% ביקורות חיוביות, יותר מ-8,000 נמכרו</p><p>⚠️ המחיר לדגם 306 בשחור, מקציף בלבד. הגרסה עם מטרפה לביצים עולה יותר.</p></details>
-<a class="buy" href="https://s.click.aliexpress.com/e/_c4VYsBiJ" target="_blank" rel="sponsored noopener" data-deal="מקציף חלב חשמלי נטען USB-C">לקנייה בעליאקספרס</a></div></article><article class="card" data-t="לכביסה" data-q="מסיר מוך נטען xiaomi mijia לכביסה">
+<a class="buy" href="https://s.click.aliexpress.com/e/_c4VYsBiJ" target="_blank" rel="sponsored noopener" data-deal="מקציף חלב חשמלי נטען USB-C">לקנייה בעליאקספרס</a></div></article><article class="card" data-t="לכביסה" data-il="" data-q="מסיר מוך נטען xiaomi mijia לכביסה">
 <img src="img/2026-11-05-bayit-2.jpg" alt="מסיר מוך נטען Xiaomi Mijia" loading="lazy" width="600" height="600">
 <div class="body"><div class="meta"><span class="tag">לכביסה</span><span>פורסם 05.11</span></div>
 <h2 class="name">מסיר מוך נטען Xiaomi Mijia</h2><p class="il">מסירי מוך נטענים בארץ: 105-111 ₪</p><p class="ali">בעלי: 58 ₪<small>מחיר רגיל לאפשרות הזולה, בזמן הפרסום</small></p>
 <details><summary>למה בחרנו ומה לבדוק</summary><p>✅ מותג Xiaomi, 98% ביקורות חיוביות, כמעט 1,000 נמכרו</p><p>⚠️ שני דגמים במחיר קרוב. מוריד גולגולים מסוודרים ושמיכות.</p></details>
-<a class="buy" href="https://s.click.aliexpress.com/e/_c3TnU4A7" target="_blank" rel="sponsored noopener" data-deal="מסיר מוך נטען Xiaomi Mijia">לקנייה בעליאקספרס</a></div></article><article class="card" data-t="לחורף" data-q="כרית חימום לרגליים usb לחורף">
+<a class="buy" href="https://s.click.aliexpress.com/e/_c3TnU4A7" target="_blank" rel="sponsored noopener" data-deal="מסיר מוך נטען Xiaomi Mijia">לקנייה בעליאקספרס</a></div></article><article class="card" data-t="לחורף" data-il="" data-q="כרית חימום לרגליים usb לחורף">
 <img src="img/2026-11-05-bayit-3.jpg" alt="כרית חימום לרגליים USB" loading="lazy" width="600" height="600">
 <div class="body"><div class="meta"><span class="tag">לחורף</span><span>פורסם 05.11</span></div>
 <h2 class="name">כרית חימום לרגליים USB</h2><p class="ali">בעלי: 20 ₪<small>מחיר רגיל לאפשרות הזולה, בזמן הפרסום</small></p>
 <details><summary>למה בחרנו ומה לבדוק</summary><p>✅ 98% ביקורות חיוביות, יותר מ-3,600 נמכרו</p><p>⚠️ דגם USB פשוט, חלש יותר ממחמם רגליים שמתחבר לחשמל. צריך מטען USB.</p></details>
-<a class="buy" href="https://s.click.aliexpress.com/e/_c35oYITN" target="_blank" rel="sponsored noopener" data-deal="כרית חימום לרגליים USB">לקנייה בעליאקספרס</a></div></article><article class="card" data-t="ניקיון" data-q="מנקה חלונות חשמלי נטען ניקיון">
+<a class="buy" href="https://s.click.aliexpress.com/e/_c35oYITN" target="_blank" rel="sponsored noopener" data-deal="כרית חימום לרגליים USB">לקנייה בעליאקספרס</a></div></article><article class="card" data-t="ניקיון" data-il="" data-q="מנקה חלונות חשמלי נטען ניקיון">
 <img src="img/2026-11-04-bayit-1.jpg" alt="מנקה חלונות חשמלי נטען" loading="lazy" width="600" height="600">
 <div class="body"><div class="meta"><span class="tag">ניקיון</span><span>פורסם 04.11</span></div>
 <h2 class="name">מנקה חלונות חשמלי נטען</h2><p class="il">מנקי חלונות נטענים בארץ: מ-205 ₪</p><p class="ali">בעלי: 92 ₪<small>מחיר למצטרפים חדשים לעליאקספרס, בזמן הפרסום</small></p>
 <details><summary>למה בחרנו ומה לבדוק</summary><p>✅ דירוג 4.6, יותר מ-10,000 נמכרו</p><p>⚠️ מכשיר בלי מותג. מתאים לחלונות ומראות, לא לשטחים גדולים.</p></details>
-<a class="buy" href="https://s.click.aliexpress.com/e/_c3Rq6HeJ" target="_blank" rel="sponsored noopener" data-deal="מנקה חלונות חשמלי נטען">לקנייה בעליאקספרס</a></div></article><article class="card" data-t="לבית" data-q="כיסוי לניקוי מזגן עם צינור ניקוז לבית">
+<a class="buy" href="https://s.click.aliexpress.com/e/_c3Rq6HeJ" target="_blank" rel="sponsored noopener" data-deal="מנקה חלונות חשמלי נטען">לקנייה בעליאקספרס</a></div></article><article class="card" data-t="לבית" data-il="" data-q="כיסוי לניקוי מזגן עם צינור ניקוז לבית">
 <img src="img/2026-11-04-bayit-2.jpg" alt="כיסוי לניקוי מזגן עם צינור ניקוז" loading="lazy" width="600" height="600">
 <div class="body"><div class="meta"><span class="tag">לבית</span><span>פורסם 04.11</span></div>
 <h2 class="name">כיסוי לניקוי מזגן עם צינור ניקוז</h2><p class="il">בארץ: 144 ₪</p><p class="ali">בעלי: 24 ₪<small>מחיר למצטרפים חדשים לעליאקספרס, בזמן הפרסום</small></p>
 <details><summary>למה בחרנו ומה לבדוק</summary><p>✅ דירוג 4.7, יותר מ-2,000 נמכרו</p><p>⚠️ המחיר לגודל 9000-18000 BTU בלי צינור. בוחרים לפי גודל המזגן.</p></details>
-<a class="buy" href="https://s.click.aliexpress.com/e/_c32FMnbZ" target="_blank" rel="sponsored noopener" data-deal="כיסוי לניקוי מזגן עם צינור ניקוז">לקנייה בעליאקספרס</a></div></article><article class="card" data-t="סידור" data-q="6 מחיצות שקופות למגירות, מתכווננות סידור">
+<a class="buy" href="https://s.click.aliexpress.com/e/_c32FMnbZ" target="_blank" rel="sponsored noopener" data-deal="כיסוי לניקוי מזגן עם צינור ניקוז">לקנייה בעליאקספרס</a></div></article><article class="card" data-t="סידור" data-il="" data-q="6 מחיצות שקופות למגירות, מתכווננות סידור">
 <img src="img/2026-11-04-bayit-3.jpg" alt="6 מחיצות שקופות למגירות, מתכווננות" loading="lazy" width="600" height="600">
 <div class="body"><div class="meta"><span class="tag">סידור</span><span>פורסם 04.11</span></div>
 <h2 class="name">6 מחיצות שקופות למגירות, מתכווננות</h2><p class="ali">בעלי: 40 ₪<small>מחיר למצטרפים חדשים לעליאקספרס, בזמן הפרסום</small></p>
 <details><summary>למה בחרנו ומה לבדוק</summary><p>✅ דירוג 4.8, יותר מ-2,000 נמכרו</p><p>⚠️ המחיר לחבילה של 6 (כ-6.7 ₪ למחיצה). למדוד את המגירה לפני.</p></details>
-<a class="buy" href="https://s.click.aliexpress.com/e/_c4Uqr5Zd" target="_blank" rel="sponsored noopener" data-deal="6 מחיצות שקופות למגירות, מתכווננות">לקנייה בעליאקספרס</a></div></article><p class="empty" id="empty" hidden>לא מצאנו מוצר כזה. נסו מילה אחרת.</p></main>
+<a class="buy" href="https://s.click.aliexpress.com/e/_c4Uqr5Zd" target="_blank" rel="sponsored noopener" data-deal="6 מחיצות שקופות למגירות, מתכווננות">לקנייה בעליאקספרס</a></div></article><article class="card" data-t="ניקיון" data-il="1" data-q="שואב אבק אלחוטי yanhama h5 ניקיון">
+<img src="img/il-1005013491202076.jpg" alt="שואב אבק אלחוטי Yanhama H5" loading="lazy" width="600" height="600">
+<div class="body"><div class="meta"><span class="tag">ניקיון</span><span>נשלח מישראל</span></div><span class="ilb">📦 נשלח מישראל</span>
+<h2 class="name">שואב אבק אלחוטי Yanhama H5</h2><p class="il">אותו דגם בארץ: מ-438 ₪</p><p class="ali">בעלי: 404 ₪<small>מחיר רגיל לאפשרות הזולה, נבדק 08.11</small></p>
+<details><summary>למה בחרנו ומה לבדוק</summary><p>✅ דירוג 5.0, 42 נמכרו בחודש האחרון, אותו דגם שנמכר בארץ</p><p>⚠️ הפער מהמחיר בארץ קטן. כדאי לבדוק אחריות ושירות אצל המוכר לפני שקונים.</p></details>
+<a class="buy" href="https://s.click.aliexpress.com/e/_c4P0O32r" target="_blank" rel="sponsored noopener" data-deal="שואב אבק אלחוטי Yanhama H5">לקנייה בעליאקספרס</a></div></article><article class="card" data-t="ניקיון" data-il="1" data-q="שואב רובוטי xiaomi h50 עם תחנה ניקיון">
+<img src="img/il-1005013457363886.jpg" alt="שואב רובוטי Xiaomi H50 עם תחנה" loading="lazy" width="600" height="600">
+<div class="body"><div class="meta"><span class="tag">ניקיון</span><span>נשלח מישראל</span></div><span class="ilb">📦 נשלח מישראל</span>
+<h2 class="name">שואב רובוטי Xiaomi H50 עם תחנה</h2><p class="ali">בעלי: 1422 ₪<small>מחיר רגיל לאפשרות הזולה, נבדק 08.11</small></p>
+<details><summary>למה בחרנו ומה לבדוק</summary><p>✅ הכי נמכר ברשימה: 213 נמכרו בחודש האחרון, שואב ושוטף</p><p>⚠️ בארץ מצאנו רק את דגם ה-Pro, אז אין כאן השוואת מחיר הוגנת. דירוג 4.4.</p></details>
+<a class="buy" href="https://s.click.aliexpress.com/e/_c3QVyZ9H" target="_blank" rel="sponsored noopener" data-deal="שואב רובוטי Xiaomi H50 עם תחנה">לקנייה בעליאקספרס</a></div></article><article class="card" data-t="חימום" data-il="1" data-q="תנור קרינה קרבון 900w מתנדנד חימום">
+<img src="img/il-1005013463996179.jpg" alt="תנור קרינה קרבון 900W מתנדנד" loading="lazy" width="600" height="600">
+<div class="body"><div class="meta"><span class="tag">חימום</span><span>נשלח מישראל</span></div><span class="ilb">📦 נשלח מישראל</span>
+<h2 class="name">תנור קרינה קרבון 900W מתנדנד</h2><p class="ali">בעלי: 153 ₪<small>מחיר רגיל לאפשרות הזולה, נבדק 08.11</small></p>
+<details><summary>למה בחרנו ומה לבדוק</summary><p>✅ דירוג 5.0, מתנדנד כדי לפזר את החום בחדר</p><p>⚠️ 900W, הספק נמוך יותר מרוב תנורי הקרבון בארץ. מתאים לחדר קטן.</p></details>
+<a class="buy" href="https://s.click.aliexpress.com/e/_c428bdDV" target="_blank" rel="sponsored noopener" data-deal="תנור קרינה קרבון 900W מתנדנד">לקנייה בעליאקספרס</a></div></article><article class="card" data-t="מטבח" data-il="1" data-q="סיר טיגון באוויר 5 ליטר electro max מטבח">
+<img src="img/il-1005013042087527.jpg" alt="סיר טיגון באוויר 5 ליטר Electro Max" loading="lazy" width="600" height="600">
+<div class="body"><div class="meta"><span class="tag">מטבח</span><span>נשלח מישראל</span></div><span class="ilb">📦 נשלח מישראל</span>
+<h2 class="name">סיר טיגון באוויר 5 ליטר Electro Max</h2><p class="il">סירי טיגון באוויר 5 ליטר בארץ: מ-437 ₪</p><p class="ali">בעלי: 315 ₪<small>מחיר רגיל לאפשרות הזולה, נבדק 08.11</small></p>
+<details><summary>למה בחרנו ומה לבדוק</summary><p>✅ 5 ליטר, מספיק למשפחה</p><p>⚠️ אין עדיין מכירות וביקורות על הדגם הזה, וההשוואה היא מול מותגים אחרים.</p></details>
+<a class="buy" href="https://s.click.aliexpress.com/e/_c40o80i3" target="_blank" rel="sponsored noopener" data-deal="סיר טיגון באוויר 5 ליטר Electro Max">לקנייה בעליאקספרס</a></div></article><article class="card" data-t="שבת" data-il="1" data-q="מנורת קיר לשבת, מאושרת זומט שבת">
+<img src="img/il-1005013350295201.jpg" alt="מנורת קיר לשבת, מאושרת זומט" loading="lazy" width="600" height="600">
+<div class="body"><div class="meta"><span class="tag">שבת</span><span>נשלח מישראל</span></div><span class="ilb">📦 נשלח מישראל</span>
+<h2 class="name">מנורת קיר לשבת, מאושרת זומט</h2><p class="il">מנורות קיר לשבת בארץ: מ-153 ₪</p><p class="ali">בעלי: 121 ₪<small>מחיר רגיל לאפשרות הזולה, נבדק 08.11</small></p>
+<details><summary>למה בחרנו ומה לבדוק</summary><p>✅ מאושרת זומט לשבת, דירוג 5.0</p><p>⚠️ בודקים בתמונות את סוג ההתקנה לקיר לפני שקונים.</p></details>
+<a class="buy" href="https://s.click.aliexpress.com/e/_c3Q6vssB" target="_blank" rel="sponsored noopener" data-deal="מנורת קיר לשבת, מאושרת זומט">לקנייה בעליאקספרס</a></div></article><p class="empty" id="empty" hidden>לא מצאנו מוצר כזה. נסו מילה אחרת.</p></main>
 <footer><p>המחירים נכונים ליום הפרסום ועשויים להשתנות. הקנייה נעשית ישירות מול עליאקספרס והמוכרים, ואנחנו לא אחראים על המוצרים, המשלוח או השירות. הקישורים הם קישורי שותפים.</p></footer>
 <script>
 (function(){var q=document.getElementById('q'),cards=[].slice.call(document.querySelectorAll('.card')),t='',empty=document.getElementById('empty');
-function f(){var s=q.value.trim().toLowerCase(),n=0;cards.forEach(function(c){var ok=(!t||c.dataset.t===t)&&(!s||c.dataset.q.indexOf(s)>-1);c.hidden=!ok;if(ok)n++});empty.hidden=n>0}
+function f(){var s=q.value.trim().toLowerCase(),n=0;cards.forEach(function(c){var ok=(!t||(t==='__il'?c.dataset.il==='1':c.dataset.t===t))&&(!s||c.dataset.q.indexOf(s)>-1);c.hidden=!ok;if(ok)n++});empty.hidden=n>0}
 q.addEventListener('input',f);
 [].slice.call(document.querySelectorAll('.chip')).forEach(function(b){b.addEventListener('click',function(){t=b.dataset.t;document.querySelectorAll('.chip').forEach(function(x){x.setAttribute('aria-pressed',String(x===b))});f()})});
+function pick(b){t=b.dataset.t;document.querySelectorAll('.chip').forEach(function(x){x.setAttribute('aria-pressed',String(x===b))});f()}
+var il=document.getElementById('il');function fromHash(){if(il&&location.hash==='#israel')pick(il)}fromHash();window.addEventListener('hashchange',fromHash);
 document.addEventListener('click',function(ev){var a=ev.target.closest&&ev.target.closest('[data-deal]');if(a&&window.fbq)fbq('trackCustom','DealClick',{content_name:a.dataset.deal})},true);
 })();
 </script></body></html>
