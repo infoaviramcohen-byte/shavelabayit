@@ -1,7 +1,7 @@
 {
  "site": "https://shavelabayit.com",
  "currency": "ILS",
- "count": 14,
+ "count": 15,
  "deals": [
   {
    "id": "2026-11-08-bayit-1",
@@ -18,7 +18,9 @@
    "why": "96.3% ביקורות חיוביות, יותר מ-6,000 נמכרו, עובד עם אפליקציה, גוגל ואלקסה",
    "warn": "לבחור תקע EU שמתאים לשקע בארץ. צריך WiFi של 2.4GHz.",
    "link": "https://s.click.aliexpress.com/e/_c3dKQSjH",
-   "img": "https://shavelabayit.com/deals/img/2026-11-08-bayit-1.jpg"
+   "img": "https://shavelabayit.com/deals/img/2026-11-08-bayit-1.jpg",
+   "pid": "1005007184129819",
+   "thumb": "https://shavelabayit.com/deals/img/sm/2026-11-08-bayit-1.webp"
   },
   {
    "id": "2026-11-08-bayit-2",
@@ -35,7 +37,9 @@
    "why": "98% ביקורות חיוביות, יותר מ-2,700 נמכרו, רב פעמית ונשטפת",
    "warn": "לבדוק שהמידה מתאימה לסל של הסיר שלכם, יש כמה גדלים.",
    "link": "https://s.click.aliexpress.com/e/_c3XYmhcx",
-   "img": "https://shavelabayit.com/deals/img/2026-11-08-bayit-2.jpg"
+   "img": "https://shavelabayit.com/deals/img/2026-11-08-bayit-2.jpg",
+   "pid": "1005007306653549",
+   "thumb": "https://shavelabayit.com/deals/img/sm/2026-11-08-bayit-2.webp"
   },
   {
    "id": "2026-11-08-bayit-3",
@@ -52,7 +56,28 @@
    "why": "98% ביקורות חיוביות, 1000W, מגהץ שטוח וגם בגד תלוי",
    "warn": "לבחור תקע EU. מיכל המים קטן (130 מ״ל), מספיק לכמה בגדים בכל מילוי.",
    "link": "https://s.click.aliexpress.com/e/_c3Th5ojd",
-   "img": "https://shavelabayit.com/deals/img/2026-11-08-bayit-3.jpg"
+   "img": "https://shavelabayit.com/deals/img/2026-11-08-bayit-3.jpg",
+   "pid": "1005010089079956",
+   "thumb": "https://shavelabayit.com/deals/img/sm/2026-11-08-bayit-3.webp"
+  },
+  {
+   "id": "2026-11-08-bayit-4",
+   "name": "רובוט לניקוי חלונות עם התזת מים",
+   "tag": "ניקיון",
+   "store": "aliexpress",
+   "date": "2026-11-08",
+   "israel": false,
+   "il_text": "רובוטים לניקוי חלונות בארץ: מ-599 ₪",
+   "il_from": 599.0,
+   "ali": 283.0,
+   "ali_note": "מחיר רגיל לאפשרות הזולה, בזמן הפרסום",
+   "new_user_price": false,
+   "why": "97.1% ביקורות חיוביות, מתיז מים לבד ומגיע עם חבל ביטחון",
+   "warn": "לבחור תקע EU. יש פחות מ-200 ביקורות, אז שווה לקרוא אותן לפני שקונים.",
+   "link": "https://s.click.aliexpress.com/e/_c3ow8Pkb",
+   "img": "https://shavelabayit.com/deals/img/2026-11-08-bayit-4.jpg",
+   "pid": "1005007097070984",
+   "thumb": "https://shavelabayit.com/deals/img/sm/2026-11-08-bayit-4.webp"
   },
   {
    "id": "2026-11-06-bayit-1",
@@ -69,7 +94,9 @@
    "why": "98% ביקורות חיוביות, יותר מ-6,800 נמכרו, נצמד במגנט",
    "warn": "12 ₪ לפס של 20 ס״מ. 50 ס״מ עולה קצת יותר. נדלק רק בחושך.",
    "link": "https://s.click.aliexpress.com/e/_c3xIoYtH",
-   "img": "https://shavelabayit.com/deals/img/2026-11-06-bayit-1.jpg"
+   "img": "https://shavelabayit.com/deals/img/2026-11-06-bayit-1.jpg",
+   "pid": "1005008054135806",
+   "thumb": "https://shavelabayit.com/deals/img/sm/2026-11-06-bayit-1.webp"
   },
   {
    "id": "2026-11-06-bayit-2",
@@ -86,7 +113,9 @@
    "why": "98% ביקורות חיוביות, יותר מ-5,500 נמכרו",
    "warn": "המחיר לראש המקלחת בלבד, צינור ומתלה לא כלולים. חיבור סטנדרטי שמתאים לרוב הצינורות בארץ.",
    "link": "https://s.click.aliexpress.com/e/_c2xj8kEr",
-   "img": "https://shavelabayit.com/deals/img/2026-11-06-bayit-2.jpg"
+   "img": "https://shavelabayit.com/deals/img/2026-11-06-bayit-2.jpg",
+   "pid": "1005007170741894",
+   "thumb": "https://shavelabayit.com/deals/img/sm/2026-11-06-bayit-2.webp"
   },
   {
    "id": "2026-11-06-bayit-3",
@@ -103,7 +132,9 @@
    "why": "98% ביקורות חיוביות, יותר מ-20,000 נמכרו, מתאים לסיר טיגון באוויר",
    "warn": "13 ₪ לבקבוק 2 ב-1 של 500 מ״ל שבתמונה. האפשרות הזולה ברשימה היא רק מברשת, לא לבחור בה בטעות.",
    "link": "https://s.click.aliexpress.com/e/_c4aSwaBt",
-   "img": "https://shavelabayit.com/deals/img/2026-11-06-bayit-3.jpg"
+   "img": "https://shavelabayit.com/deals/img/2026-11-06-bayit-3.jpg",
+   "pid": "1005010044196353",
+   "thumb": "https://shavelabayit.com/deals/img/sm/2026-11-06-bayit-3.webp"
   },
   {
    "id": "2026-11-05-bayit-1",
@@ -120,7 +151,9 @@
    "why": "98% ביקורות חיוביות, יותר מ-8,000 נמכרו",
    "warn": "המחיר לדגם 306 בשחור, מקציף בלבד. הגרסה עם מטרפה לביצים עולה יותר.",
    "link": "https://s.click.aliexpress.com/e/_c4VYsBiJ",
-   "img": "https://shavelabayit.com/deals/img/2026-11-05-bayit-1.jpg"
+   "img": "https://shavelabayit.com/deals/img/2026-11-05-bayit-1.jpg",
+   "pid": "1005007037889730",
+   "thumb": "https://shavelabayit.com/deals/img/sm/2026-11-05-bayit-1.webp"
   },
   {
    "id": "2026-11-05-bayit-2",
@@ -137,7 +170,9 @@
    "why": "מותג Xiaomi, 98% ביקורות חיוביות, כמעט 1,000 נמכרו",
    "warn": "שני דגמים במחיר קרוב. מוריד גולגולים מסוודרים ושמיכות.",
    "link": "https://s.click.aliexpress.com/e/_c3TnU4A7",
-   "img": "https://shavelabayit.com/deals/img/2026-11-05-bayit-2.jpg"
+   "img": "https://shavelabayit.com/deals/img/2026-11-05-bayit-2.jpg",
+   "pid": "1005010228623243",
+   "thumb": "https://shavelabayit.com/deals/img/sm/2026-11-05-bayit-2.webp"
   },
   {
    "id": "2026-11-05-bayit-3",
@@ -154,7 +189,9 @@
    "why": "98% ביקורות חיוביות, יותר מ-3,600 נמכרו",
    "warn": "דגם USB פשוט, חלש יותר ממחמם רגליים שמתחבר לחשמל. צריך מטען USB.",
    "link": "https://s.click.aliexpress.com/e/_c35oYITN",
-   "img": "https://shavelabayit.com/deals/img/2026-11-05-bayit-3.jpg"
+   "img": "https://shavelabayit.com/deals/img/2026-11-05-bayit-3.jpg",
+   "pid": "1005010487416285",
+   "thumb": "https://shavelabayit.com/deals/img/sm/2026-11-05-bayit-3.webp"
   },
   {
    "id": "2026-11-04-bayit-1",
@@ -171,7 +208,9 @@
    "why": "דירוג 4.6, יותר מ-10,000 נמכרו",
    "warn": "מכשיר בלי מותג. מתאים לחלונות ומראות, לא לשטחים גדולים.",
    "link": "https://s.click.aliexpress.com/e/_c3Rq6HeJ",
-   "img": "https://shavelabayit.com/deals/img/2026-11-04-bayit-1.jpg"
+   "img": "https://shavelabayit.com/deals/img/2026-11-04-bayit-1.jpg",
+   "pid": null,
+   "thumb": "https://shavelabayit.com/deals/img/sm/2026-11-04-bayit-1.webp"
   },
   {
    "id": "2026-11-04-bayit-2",
@@ -188,7 +227,9 @@
    "why": "דירוג 4.7, יותר מ-2,000 נמכרו",
    "warn": "המחיר לגודל 9000-18000 BTU בלי צינור. בוחרים לפי גודל המזגן.",
    "link": "https://s.click.aliexpress.com/e/_c32FMnbZ",
-   "img": "https://shavelabayit.com/deals/img/2026-11-04-bayit-2.jpg"
+   "img": "https://shavelabayit.com/deals/img/2026-11-04-bayit-2.jpg",
+   "pid": null,
+   "thumb": "https://shavelabayit.com/deals/img/sm/2026-11-04-bayit-2.webp"
   },
   {
    "id": "2026-11-04-bayit-3",
@@ -205,7 +246,9 @@
    "why": "דירוג 4.8, יותר מ-2,000 נמכרו",
    "warn": "המחיר לחבילה של 6 (כ-6.7 ₪ למחיצה). למדוד את המגירה לפני.",
    "link": "https://s.click.aliexpress.com/e/_c4Uqr5Zd",
-   "img": "https://shavelabayit.com/deals/img/2026-11-04-bayit-3.jpg"
+   "img": "https://shavelabayit.com/deals/img/2026-11-04-bayit-3.jpg",
+   "pid": null,
+   "thumb": "https://shavelabayit.com/deals/img/sm/2026-11-04-bayit-3.webp"
   },
   {
    "id": "il-1005013457363886",
@@ -222,7 +265,9 @@
    "why": "אותו דגם Xiaomi H50 שנמכר בארץ, הכי נמכר ברשימה: 213 נמכרו בחודש האחרון, שואב ושוטף",
    "warn": "דירוג 4.4, קצת נמוך מהרגיל אצלנו. בודקים בתמונות מה כלול באפשרות שבוחרים.",
    "link": "https://s.click.aliexpress.com/e/_c3QVyZ9H",
-   "img": "https://shavelabayit.com/deals/img/il-1005013457363886.jpg"
+   "img": "https://shavelabayit.com/deals/img/il-1005013457363886.jpg",
+   "pid": "1005013457363886",
+   "thumb": "https://shavelabayit.com/deals/img/sm/il-1005013457363886.webp"
   },
   {
    "id": "il-1005013491202076",
@@ -239,7 +284,9 @@
    "why": "דירוג 5.0, 42 נמכרו בחודש האחרון, אותו דגם שנמכר בארץ",
    "warn": "הפער מהמחיר בארץ קטן. כדאי לבדוק אחריות ושירות אצל המוכר לפני שקונים.",
    "link": "https://s.click.aliexpress.com/e/_c4P0O32r",
-   "img": "https://shavelabayit.com/deals/img/il-1005013491202076.jpg"
+   "img": "https://shavelabayit.com/deals/img/il-1005013491202076.jpg",
+   "pid": "1005013491202076",
+   "thumb": "https://shavelabayit.com/deals/img/sm/il-1005013491202076.webp"
   }
  ]
 }
